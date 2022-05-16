@@ -1,6 +1,7 @@
 import { MatIconModule } from '@angular/material/icon';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatSelectModule } from '@angular/material/select';
+import {MatInputModule} from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { GaugeModule } from 'angular-gauge';
 import { FormsModule } from '@angular/forms';
@@ -28,7 +29,8 @@ import { SearchBarComponent } from './components/search-bar/search-bar.component
     MatFormFieldModule,
     MatSelectModule,
     MatTabsModule,
-    MatIconModule
+    MatIconModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
