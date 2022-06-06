@@ -40,4 +40,41 @@
        }
 
    }
+
+   .game {
+       &-banner {
+           height: 442px;
+           overflow: hidden;
+
+           &-img {
+               width: 100%;
+               filter: blur(5px);
+           }
+       }
+       &-content {
+            text-align: center;
+            position: relative;
+            top: -200px;
+        }
+
+        &-header {
+            &-title {
+                font-size: 70px;
+                color: #fff;
+                font-weight: 700;
+                line-height: 70px;
+                white-space: nowrap;
+            }
+
+            &-release-date {
+                color: #fff;
+                font-weight: 700;
+            }
+
+            &-genres {
+                color: #fff;
+                font-weight: 700;
+            }
+        }
+   }
 }
